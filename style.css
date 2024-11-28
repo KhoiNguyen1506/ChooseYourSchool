@@ -1,0 +1,33 @@
+img {
+    width: 30px;
+    border-radius: 25px;
+   
+}
+body {
+    
+    font-family: 'Candara';
+    background: ivory;
+    color: lightslategray;
+}
+
+.center-container {
+    text-align: center;
+}
+
+.links a {
+    margin-right: 150px; /*Space within the hyperlinks*/
+    text-decoration: none; /*Remove underlines*/
+    color:lightcoral;
+
+}
+.links a:hover {
+    color:rgb(238, 10, 223);
+}
+
+.content {
+    font-size: 14px;
+    margin-left: 50px;
+}
+.content h1 {
+    font-size: 50px;
+}

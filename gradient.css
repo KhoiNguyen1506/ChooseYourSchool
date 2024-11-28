@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: linear-gradient(to right, #fdfdfd,#ebedee 70%);
+}
+
+.container {
+    position:absolute;
+    top: 3%;
+    left: 6%;
+    transform: translate(-50%,-50%);
+}
+
+.text{
+    background: linear-gradient(90deg,#00dbde,#fc00ff);
+    font-family: Poppins;
+    font-size: 10px;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
