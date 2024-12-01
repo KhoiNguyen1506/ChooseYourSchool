@@ -1,13 +1,7 @@
-img {
-    width: 30px;
-    border-radius: 25px;
-   
-}
 body {
-    
-    font-family: 'Candara';
+    font-family:'Candara';
     background: ivory;
-    color: lightslategray;
+    color: black;
 }
 
 .center-container {
@@ -18,10 +12,9 @@ body {
     margin-right: 150px; /*Space within the hyperlinks*/
     text-decoration: none; /*Remove underlines*/
     color:lightcoral;
-
 }
 .links a:hover {
-    color:rgb(238, 10, 223);
+    color:rgb(53, 132, 222);  /* Add another color when pointing the cursor to the hyperlink*/
 }
 
 .content {
@@ -31,3 +24,4 @@ body {
 .content h1 {
     font-size: 50px;
 }
+
