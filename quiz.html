@@ -3,7 +3,7 @@
   <head>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="gradient.css">
-    <link rel="script" href="script.js">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
     <title>Khoi Nguyen</title>
   </head>
   <body>
@@ -22,5 +22,81 @@
         </p>
     </div>
     <hr>
+    <form>
+      <div class="search">
+        <span class="search-icon material-symbols-outlined">search</span>
+        <input class="search-input" type="search" placeholder="Search for colleges, rankings,...">
+      </div>
+    </form>
+    <div class="contain">
+      <section class="quiz-section">
+        <div class="quiz-box">
+          <h1>College Quiz</h1>
+          <div class="quiz-header">
+            <span>College Quiz Total</span>
+            <span class="header-score">Score: 0 / 5</span>
+          </div>
+
+          <h2 class="question-text">How many colleges and universities are there in the United States?</h2>
+
+          <div class="option-list">
+            <div class="option">
+              <span>A. 5,220</span>
+            </div>
+            <div class="option">
+              <span>B. 5,300</span>
+            </div>
+            <div class="option">
+              <span>C. 2,200</span>
+            </div>
+            <div class="option">
+              <span>D. Countless</span>
+            </div>
+          </div>
+
+          <div class="quiz-footer">
+            <span class="question-total">1 of 5 questions</span>
+            <button class="next">Next</button>
+          </div>
+        </div>
+      </section>
+      <section class="home">
+        <div class="home-content">
+          <h1>Quiz</h1>
+          <p>Wanna start with a fun college quiz????</p>
+          <button class="start-button">
+            Start Quiz
+          </button>
+        </div>
+
+        <div class="result-box">
+          <h2>Quiz Result</h2>
+          <div class="percentage-container">
+            <div class="circular-progress">
+              <span class="progress-value">0%</span>
+            </div>
+            <span class="score-text">Your Score 0 out of 5</span>
+          </div>
+          <div class="button">
+            <button class="tryAgain-button">Try Again</button>
+            <button class="goHome-button">Go to Home</button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="popup-info">
+      <h2>Quiz Guide</h2>
+      <span class="info">This quiz will consist of 5 multiple choice questions.</span>
+      <span class="info">Each time you answer a correct question, you will have 1 point</span>
+      <span class="info">All the questions will be related to universities in the United States</span>
+      <span class="info">You need 3 points to win.</span>
+      <span class="info">Now let's start. Good luck!!!!</span>
+      <div class="button-group">
+        <button class="info-button exit-button">Exit Quiz</button>
+        <a href="#" class="info-button continue-button">Start</a>
+      </div>
+    </div>
+    <script src="question.js"></script>
+    <script src="script.js"></script>
    </body>
 </html>
