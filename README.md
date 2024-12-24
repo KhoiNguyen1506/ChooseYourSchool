@@ -1,2 +1,2 @@
 # ChooseYourSchool
-This is a website where you can learn about colleges that specify in computer science
+Hi everyone!! My name is Khoi and I am currently an international student in the US. I have a great compassion for computer science and I want to spread this compassion to everyone. That sparks up an idea for me to create this website, with an intention to help coding lovers learn about the universities and colleges in the US. Also, I have made an additional quiz about colleges and universities in the US for you guys to test out your knowledge as well. Hope y'all like it!!!
