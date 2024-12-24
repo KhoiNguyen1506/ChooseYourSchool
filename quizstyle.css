@@ -43,7 +43,7 @@ body {
 
 .main {
     min-height: 100vh;
-    background: url('/images/compscience.jpg') no-repeat;
+    background: url('images/compscience.jpg') no-repeat;
     background-size: cover;
     background-size: center;
     transition: .3s ease;
