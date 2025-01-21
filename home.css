@@ -97,3 +97,10 @@ button:hover span{
 button:hover{
     border: none;
 }
+.gradient{
+    background: linear-gradient(90deg,#00dbde,#fc00ff);
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 470px;
+}
